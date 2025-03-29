@@ -16,6 +16,49 @@ A modern, production-ready template for building full-stack web applications wit
 - **Code Quality**: ESLint, Prettier, Husky, and lint-staged for consistent code
 - **Design System**: Custom design tokens and Storybook for component organization
 
+## 📋 Using This Template
+
+There are two main ways to use this template:
+
+### Option 1: Use the GitHub Template Feature
+
+1. Click the "Use this template" button at the top of the repository
+2. Choose "Create a new repository"
+3. Enter your repository name and details
+4. Clone your new repository to your local machine
+5. Run the setup script to customize the project:
+   ```bash
+   npm run setup
+   ```
+
+### Option 2: Clone the Repository Directly
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/nextjs-fullstack-starter.git my-project
+   cd my-project
+   ```
+2. Remove the .git folder to start fresh:
+   ```bash
+   rm -rf .git
+   ```
+3. Initialize a new git repository:
+   ```bash
+   git init
+   ```
+4. Run the setup script to customize the project:
+   ```bash
+   npm run setup
+   ```
+
+The setup script will guide you through:
+- Renaming the project
+- Adding a description and author
+- Setting up Supabase credentials
+- Cleaning up example files
+- Initializing a fresh git repository
+- Installing dependencies
+
 ## 🏗️ Getting Started
 
 ### Prerequisites
@@ -95,6 +138,7 @@ The project structure is organized as follows:
 - `npm run storybook` - Start Storybook
 - `npm run create:page` - Generate a new page
 - `npm run create:component` - Generate a new component
+- `npm run setup` - Run the project setup script
 
 ### Using Generator Scripts
 

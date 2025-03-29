@@ -2,6 +2,7 @@
   "name": "nextjs-fullstack-starter",
   "version": "0.1.0",
   "private": true,
+  "description": "A modern, production-ready template for building full-stack web applications with Next.js, React, Tailwind CSS, and Supabase",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -12,7 +13,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "create:page": "node scripts/create-page.js",
-    "create:component": "node scripts/create-component.js"
+    "create:component": "node scripts/create-component.js",
+    "setup": "node scripts/setup.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",
