@@ -18,7 +18,7 @@ A modern, production-ready template for building full-stack web applications wit
 
 ## 📋 Using This Template
 
-There are two main ways to use this template:
+There are three ways to use this template:
 
 ### Option 1: Use the GitHub Template Feature
 
@@ -50,6 +50,28 @@ There are two main ways to use this template:
    ```bash
    npm run setup
    ```
+
+### Option 3: Install and Use Globally (Recommended)
+
+For frequent use, you can install the template globally on your system:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/nextjs-fullstack-starter.git
+   cd nextjs-fullstack-starter
+   ```
+
+2. Install the template globally:
+   ```bash
+   npm install -g .
+   ```
+
+3. Now you can create new projects from anywhere:
+   ```bash
+   create-nextjs-project my-new-project
+   ```
+
+4. The script will copy the template and offer to run the setup script for you.
 
 The setup script will guide you through:
 - Renaming the project

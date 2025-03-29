@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "description": "A modern, production-ready template for building full-stack web applications with Next.js, React, Tailwind CSS, and Supabase",
+  "bin": {
+    "create-nextjs-project": "./scripts/create-nextjs-project.js"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
